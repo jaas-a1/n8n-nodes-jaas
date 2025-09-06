@@ -7,7 +7,7 @@ nodes/
 .npmignore
 .prettierrc.js
 CODE_OF_CONDUCT.md
-gulpfile.js
+gulpfile.jsg
 README_TEMPLATE.md
 tsconfig.json
 
