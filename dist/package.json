@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jaas-a1/n8n-nodes-jaas.git"
+        "url": "https://github.com/hlardiez/n8n-nodes-jaas.git"
     },
     "engines": {
         "node": ">=20.15"
