@@ -1,5 +1,5 @@
 .vscode/
-nodes/
+node_modules/
 .linting/
 .editorconfig
 .eslintrc.js
