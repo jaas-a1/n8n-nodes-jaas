@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-jaas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JaaS AI - AI Evaluations  ",
   "keywords": [
     "n8n-community-node-package"
@@ -18,7 +18,7 @@
     "name": "JaaS AI",
     "email": "info@jaas-ai.com"
   },
-  "url" : "https://jaas-ai.net",
+  "url": "https://jaas-ai.net",
   "type": "commonjs",
   "main": "index.js",
   "files": [
@@ -32,8 +32,7 @@
     "lintfix": "eslint nodes credentials package.json --fix",
     "prepublishOnly": "npm run build && npm run lint -c .eslintrc.prepublish.js nodes credentials package.json"
   },
-  "dependencies": {
-    },
+  "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/parser": "~8.32.0",
     "eslint": "^8.57.1",
