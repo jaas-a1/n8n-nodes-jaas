@@ -1,3 +1,9 @@
+
+MIT License
+
+Copyright (c) 2025 JaaS AI  & Hernan Lardiez
+
+
 Copyright 2022 n8n
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of

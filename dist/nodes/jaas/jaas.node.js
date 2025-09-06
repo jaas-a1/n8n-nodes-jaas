@@ -10,7 +10,7 @@ class jaas {
             icon: 'file:jaas_icon.svg',
             group: ['transform'],
             version: 1,
-            description: 'Evaluate Chat Bots',
+            description: 'Evaluate AI Agents with JaaS',
             defaults: {
                 name: 'JaaS',
             },
@@ -28,21 +28,18 @@ class jaas {
                     name: 'criteria1',
                     type: 'string',
                     default: 'Accuracy',
-                    required: false,
                 },
                 {
                     displayName: 'Evaluation Criteria 2',
                     name: 'criteria2',
                     type: 'string',
                     default: '',
-                    required: false,
                 },
                 {
                     displayName: 'Evaluation Criteria 3',
                     name: 'criteria3',
                     type: 'string',
                     default: '',
-                    required: false,
                 },
                 {
                     displayName: 'Type of Evaluation',
@@ -63,7 +60,6 @@ class jaas {
                         },
                     ],
                     default: 'S',
-                    required: false,
                 },
             ],
         };
@@ -131,4 +127,4 @@ class jaas {
     }
 }
 exports.jaas = jaas;
-//# sourceMappingURL=jaas.node.js.map
+//# sourceMappingURL=Jaas.node.js.map

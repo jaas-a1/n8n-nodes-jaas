@@ -1,2 +1,2 @@
-import { jaas } from './jaas/jaas.node';
+import { jaas } from './jaas/Jaas.node';
 export { jaas, };

@@ -5,12 +5,15 @@ class jaasApi {
     constructor() {
         this.name = 'jaasApi';
         this.displayName = 'JaaS API';
-        this.documentationUrl = 'https://127.0.0.1:8000/docs';
+        this.documentationUrl = 'https://jaas-ai.net';
         this.properties = [
             {
                 displayName: 'API Key',
                 name: 'apiKey',
                 type: 'string',
+                typeOptions: {
+                    password: true,
+                },
                 default: '',
                 required: true,
                 description: 'Your JaaS API key',
