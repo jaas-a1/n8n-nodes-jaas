@@ -8,8 +8,7 @@ import {
   //NodeApiError,
   NodeOperationError,
 } from 'n8n-workflow';
-
-export class jaas implements INodeType {
+class Jaas implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'JaaS',
     name: 'jaas',
@@ -157,3 +156,6 @@ export class jaas implements INodeType {
     return [returnData];
   }
 }
+
+export { Jaas };
+

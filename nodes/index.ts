@@ -1,6 +1,6 @@
 
-import { jaas } from './jaas/Jaas.node';
+const { Jaas } = require('./jaas/Jaas.node');
 
 export {
-  jaas,
+  Jaas,
 };

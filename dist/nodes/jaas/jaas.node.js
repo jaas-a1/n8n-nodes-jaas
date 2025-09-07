@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.jaas = void 0;
+exports.Jaas = void 0;
 const n8n_workflow_1 = require("n8n-workflow");
-class jaas {
+class Jaas {
     constructor() {
         this.description = {
             displayName: 'JaaS',
@@ -126,5 +126,5 @@ class jaas {
         return [returnData];
     }
 }
-exports.jaas = jaas;
+exports.Jaas = Jaas;
 //# sourceMappingURL=Jaas.node.js.map

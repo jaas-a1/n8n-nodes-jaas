@@ -1,2 +1,2 @@
-import { jaas } from './jaas/Jaas.node';
-export { jaas, };
+declare const Jaas: any;
+export { Jaas, };
