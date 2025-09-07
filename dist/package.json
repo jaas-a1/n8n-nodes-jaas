@@ -4,7 +4,12 @@
     "type": "commonjs",
     "description": "JaaS AI - AI Evaluations  ",
     "keywords": [
-        "n8n-community-node-package", "n8n", "AI Evaluations", "Evaluations", "JaaS AI", "JaaS"
+        "n8n-community-node-package",
+        "n8n",
+        "AI Evaluations",
+        "Evaluations",
+        "JaaS AI",
+        "JaaS"
     ],
     "homepage": "https://github.com/jaas-a1/n8n-nodes-jaas-ai#readme",
     "bugs": {
