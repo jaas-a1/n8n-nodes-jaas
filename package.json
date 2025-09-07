@@ -4,7 +4,7 @@
   "type": "commonjs",
   "description": "JaaS AI - AI Evaluations  ",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package", "n8n", "AI Evaluations", "Evaluations", "JaaS AI", "JaaS"
   ],
   "homepage": "https://github.com/jaas-a1/n8n-nodes-jaas#readme",
   "bugs": {
@@ -20,9 +20,12 @@
     "email": "info@jaas-ai.com"
   },
   "url": "https://jaas-ai.net",
-  "main": "index.js",
+  "main": "dist/nodes/index.js",
+  "types": "dist/nodes/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "package.json",
+    "README.md"
   ],
   "scripts": {
     "build": "npx rimraf dist && tsc && gulp build:icons",
