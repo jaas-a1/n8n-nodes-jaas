@@ -5,14 +5,14 @@ const n8n_workflow_1 = require("n8n-workflow");
 class Jaas {
     constructor() {
         this.description = {
-            displayName: 'JaaS',
-            name: 'jaas',
+            displayName: 'JaaS-AI',
+            name: 'jaas-AI',
             icon: 'file:jaas_icon.svg',
             group: ['transform'],
             version: 1,
             description: 'Evaluate AI Agents with JaaS',
             defaults: {
-                name: 'JaaS',
+                name: 'JaaS-AI',
             },
             inputs: ['main'],
             outputs: ['main'],

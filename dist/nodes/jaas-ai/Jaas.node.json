@@ -4,7 +4,7 @@
     "icon": "file:jaas_icon.svg",
     "group": ["transform"],
     "version": 1,
-    "description": "JaaS: Evaluate Chat Bots",
+    "description": "JaaS AI: Evaluate Chat Bots",
     "defaults": {
         "name": "JaaS-AI"
     },

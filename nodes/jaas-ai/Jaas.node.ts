@@ -10,14 +10,14 @@ import {
 } from 'n8n-workflow';
 class Jaas implements INodeType {
   description: INodeTypeDescription = {
-    displayName: 'JaaS',
-    name: 'jaas',
+    displayName: 'JaaS-AI',
+    name: 'jaas-AI',
     icon: 'file:jaas_icon.svg',
     group: ['transform'],
     version: 1,
     description: 'Evaluate AI Agents with JaaS',
     defaults: {
-      name: 'JaaS',
+      name: 'JaaS-AI',
     },
     inputs: ['main' as NodeConnectionType],
     outputs: ['main' as NodeConnectionType],
