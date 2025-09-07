@@ -1,18 +1,18 @@
 {
-    "name": "n8n-nodes-jaas",
+    "name": "n8n-nodes-jaas-ai",
     "version": "0.2.3",
     "type": "commonjs",
     "description": "JaaS AI - AI Evaluations  ",
     "keywords": [
         "n8n-community-node-package", "n8n", "AI Evaluations", "Evaluations", "JaaS AI", "JaaS"
     ],
-    "homepage": "https://github.com/jaas-a1/n8n-nodes-jaas#readme",
+    "homepage": "https://github.com/jaas-a1/n8n-nodes-jaas-ai#readme",
     "bugs": {
-        "url": "https://github.com/jaas-a1/n8n-nodes-jaas/issues"
+        "url": "https://github.com/jaas-a1/n8n-nodes-jaas-ai/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jaas-a1/n8n-nodes-jaas.git"
+        "url": "git+https://github.com/jaas-a1/n8n-nodes-jaas-ai.git"
     },
     "license": "MIT",
     "author": {

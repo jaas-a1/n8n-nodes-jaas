@@ -5,7 +5,7 @@ import {
 
 export class jaasApi implements ICredentialType {
   name = 'jaasApi';
-  displayName = 'JaaS API';
+  displayName = 'JaaS AI API';
   documentationUrl = 'https://jaas-ai.net';
   properties: INodeProperties[] = [
     {
@@ -17,7 +17,7 @@ export class jaasApi implements ICredentialType {
   		},
       default: '',
       required: true,
-      description: 'Your JaaS API key',
+      description: 'Your JaaS AI API key',
     },
   ];
 }

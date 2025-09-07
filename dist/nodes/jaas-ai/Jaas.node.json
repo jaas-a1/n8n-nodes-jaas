@@ -1,0 +1,29 @@
+{
+    "displayName": "JaaS-AI",
+    "name": "jaas-ai",
+    "icon": "file:jaas_icon.svg",
+    "group": ["transform"],
+    "version": 1,
+    "description": "JaaS: Evaluate Chat Bots",
+    "defaults": {
+        "name": "JaaS-AI"
+    },
+    "inputs": ["main"],
+    "outputs": ["main"],
+    "credentials": [
+        {
+            "name": "jaas-ai",
+            "required": true
+        }
+    ],
+    "properties": [
+        {
+            "Criteria": "Criteria",
+            "name": "criteria",
+            "type": "string",
+            "default": "",
+            "required": true,
+            "description": "Select Criteria for evaluation"
+        }
+    ]
+}

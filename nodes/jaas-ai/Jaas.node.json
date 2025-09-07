@@ -1,18 +1,18 @@
 {
-  "displayName": "JaaS",
-  "name": "jaas",
+  "displayName": "JaaS-AI",
+  "name": "jaas-ai",
   "icon": "file:jaas_icon.svg",
   "group": ["transform"],
   "version": 1,
   "description": "JaaS: Evaluate Chat Bots",
   "defaults": {
-    "name": "JaaS"
+    "name": "JaaS-AI"
   },
   "inputs": ["main"],
   "outputs": ["main"],
   "credentials": [
     {
-      "name": "jaas",
+      "name": "jaas-ai",
       "required": true
     }
   ],

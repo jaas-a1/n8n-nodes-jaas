@@ -4,7 +4,7 @@ exports.jaasApi = void 0;
 class jaasApi {
     constructor() {
         this.name = 'jaasApi';
-        this.displayName = 'JaaS API';
+        this.displayName = 'JaaS AI API';
         this.documentationUrl = 'https://jaas-ai.net';
         this.properties = [
             {
@@ -16,7 +16,7 @@ class jaasApi {
                 },
                 default: '',
                 required: true,
-                description: 'Your JaaS API key',
+                description: 'Your JaaS AI API key',
             },
         ];
     }
